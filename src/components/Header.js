@@ -93,12 +93,12 @@ const Header = () => {
           </nav>
           <nav>
             <HStack spacing={8}>
-              <Box as="a" href="/#projects" onClick={handleClick("projects")}>
+              <Box as="a" href="/React-Portfolio-2/#projects" onClick={handleClick("projects")}>
                 Projects <FontAwesomeIcon icon={faGithub} />
               </Box>
               <Box
                 as="a"
-                href="/#contact-me"
+                href="/React-Portfolio-2/#contact-me"
                 onClick={handleClick("contactme")}
               >
                 Contact me <FontAwesomeIcon icon={faEnvelope} />

@@ -60,6 +60,7 @@ const Header = () => {
   return (
     <Box
       position="fixed"
+      zIndex={999}
       maxWidth="100vw"
       top={0}
       left={0}

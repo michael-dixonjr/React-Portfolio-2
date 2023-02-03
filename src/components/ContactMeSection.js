@@ -56,11 +56,11 @@ const LandingSection = () => {
       py={16}
       spacing={8}
     >
-      <VStack maxWidth="1280px" minWidth="600px" p={32} alignItems="flex-start">
+      <VStack maxWidth="100vw" p={32} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box p={6} rounded="md" w="50vw">
           <form
             onSubmit={(e) => {
               e.preventDefault();

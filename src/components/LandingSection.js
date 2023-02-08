@@ -5,7 +5,7 @@ import avatarpic from "../images/avatarpic.JPG"
 
 const greeting = "My name is Michael Dixon Jr.";
 const bio1 = "I'm a frontend web developer";
-const bio2 = "specialised in React!";
+const bio2 = "specialized in React!";
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.

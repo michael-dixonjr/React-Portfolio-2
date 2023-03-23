@@ -76,6 +76,7 @@ const LandingSection = () => {
                 <Input
                   id="firstName"
                   name="firstName"
+                  bg="#E4F8D5"
                   {...getFieldProps("firstName")}
                 />
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
@@ -89,13 +90,14 @@ const LandingSection = () => {
                   id="email"
                   name="email"
                   type="email"
+                  bg="#E4F8D5"
                   {...getFieldProps("email")}
                 />
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
               <FormControl borderColor="#805AD5">
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
-                <Select id="type" name="type" {...getFieldProps("type")} borderColor="#805AD5">
+                <Select id="type" name="type" {...getFieldProps("type")} borderColor="#805AD5" bg="#E4F8D5">
                   <option value="hireMe">Freelance project proposal</option>
                   <option value="openSource">
                     Open source consultancy session
@@ -112,6 +114,7 @@ const LandingSection = () => {
                   id="comment"
                   name="comment"
                   height={250}
+                  bg="#E4F8D5"
                   {...getFieldProps("comment")}
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>

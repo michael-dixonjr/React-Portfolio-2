@@ -5,6 +5,20 @@ import MyCard from "./MyCard";
 
 const projects = [
   {
+    title: "Mock restaurant page",
+    description:
+      "A responsive restaurant website built with React.js",
+    getImageSrc: () => require("../images/projectscreenshot5.png"),
+    url: "https://michael-dixonjr.github.io/restaurant-app",
+  },
+  {
+    title: "Cocky Chatbot🔥️",
+    description:
+      "Yggi the AI chatbot is a condescending AI chatbot with a superiority complex. Built using HTML, CSS, and Vanilla JavaScript",
+    getImageSrc: () => require("../images/projectscreenshot3.png"),
+    url: "https://askyggi.vercel.app/",
+  },
+  {
     title: "React Portfolio",
     description:
       "My first portfolio website, built with React.js! ",
@@ -17,20 +31,6 @@ const projects = [
       "A landing page for a restaurant, built with just HTML and CSS",
     getImageSrc: () => require("../images/projectscreenshot2.png"),
     url: "https://michael-dixonjr.github.io/LittleLemonLanding/index.html",
-  },
-  {
-    title: "Cocky Chatbot🔥️",
-    description:
-      "Yggi the AI chatbot is a condescending AI chatbot with a superiority complex. Built using HTML, CSS, and Vanilla JavaScript",
-    getImageSrc: () => require("../images/projectscreenshot3.png"),
-    url: "https://askyggi.vercel.app/",
-  },
-  {
-    title: "React Portfolio",
-    description:
-      "My second portfolio website, built with React.js and Chakra UI!",
-    getImageSrc: () => require("../images/projectscreenshot4.png"),
-    url: "#",
   },
 ];
 

@@ -11,6 +11,8 @@ const MyCard = ({ title, description, imageSrc, href }) => {
       as="a"
       href={href}
       color="#E4F8D5"
+      target="_blank"
+      rel="noopener noreferrer"
       backgroundColor="#805AD5"
       transition="all 0.3s ease-in-out"
       _hover={{

@@ -27,7 +27,7 @@ const socials = [
   },
   {
     icon: faFile,
-    url: "https://docs.google.com/document/d/15C3Tt0Xt3UkRYobCOhDy50e4Nnx7sK6Z/edit?usp=share_link&ouid=105351899438621566484&rtpof=true&sd=true",
+    url: "https://drive.google.com/file/d/1emKcKQWqf8j45L7P423mQsJF2MuPViwf/view?usp=sharing",
   },
 ];
 

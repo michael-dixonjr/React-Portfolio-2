@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio-2/static/css/main.df6a7eab.css",
-    "main.js": "/React-Portfolio-2/static/js/main.5df9005c.js",
+    "main.js": "/React-Portfolio-2/static/js/main.cd2b552d.js",
     "static/js/111.fd0aa883.chunk.js": "/React-Portfolio-2/static/js/111.fd0aa883.chunk.js",
     "static/media/DALLE2.png": "/React-Portfolio-2/static/media/DALLE2.436f43ea90aaeac6be51.png",
     "static/media/DALLE4.png": "/React-Portfolio-2/static/media/DALLE4.7813a62c0af7bbc22b79.png",
@@ -13,11 +13,11 @@
     "static/media/avatarpic.JPG": "/React-Portfolio-2/static/media/avatarpic.d50376ac1543acab9466.JPG",
     "index.html": "/React-Portfolio-2/index.html",
     "main.df6a7eab.css.map": "/React-Portfolio-2/static/css/main.df6a7eab.css.map",
-    "main.5df9005c.js.map": "/React-Portfolio-2/static/js/main.5df9005c.js.map",
+    "main.cd2b552d.js.map": "/React-Portfolio-2/static/js/main.cd2b552d.js.map",
     "111.fd0aa883.chunk.js.map": "/React-Portfolio-2/static/js/111.fd0aa883.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.5df9005c.js"
+    "static/js/main.cd2b552d.js"
   ]
 }

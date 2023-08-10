@@ -12,11 +12,11 @@ const projects = [
     url: "https://michael-dixonjr.github.io/restaurant-app",
   },
   {
-    title: "Cocky Chatbot🔥️",
+    title: "LLM Pro UI🔥️",
     description:
-      "Yggi the AI chatbot is a condescending AI chatbot with a superiority complex. Built using HTML, CSS, and Vanilla JavaScript",
-    getImageSrc: () => require("../images/projectscreenshot3.png"),
-    url: "https://askyggi.vercel.app/",
+      "AI chatbot interface geared towards power-users. Features GPT-4 and a three-way conversational format. Built using React.js, Node.js, & Express.js. (Desktop Only Beta) ",
+    getImageSrc: () => require("../images/projectscreenshot6.png"),
+    url: "https://llm-pro-ui.vercel.app/",
   },
   {
     title: "React Portfolio",
@@ -26,13 +26,25 @@ const projects = [
     url: "https://michael-dixonjr.github.io/react-portfolio/",
   },
   {
+    title: "Cocky Chatbot",
+    description:
+      "Yggi the AI chatbot is a condescending AI chatbot with a superiority complex. Built using HTML, CSS, Vanilla JavaScript, & Express.js",
+    getImageSrc: () => require("../images/projectscreenshot3.png"),
+    url: "https://askyggi.vercel.app/",
+  },
+];
+
+/* Extra Project descriptions
+
+
     title: "Restaurant Landing Page",
     description:
       "A landing page for a restaurant, built with just HTML and CSS",
     getImageSrc: () => require("../images/projectscreenshot2.png"),
     url: "https://michael-dixonjr.github.io/LittleLemonLanding/index.html",
-  },
-];
+
+
+*/
 
 const ProjectsSection = () => {
   return (

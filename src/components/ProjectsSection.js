@@ -5,18 +5,18 @@ import MyCard from "./MyCard";
 
 const projects = [
   {
-    title: "Mock restaurant page",
-    description:
-      "A responsive restaurant website built with React.js",
-    getImageSrc: () => require("../images/projectscreenshot5.png"),
-    url: "https://michael-dixonjr.github.io/restaurant-app",
-  },
-  {
     title: "LLM Pro UI🔥️",
     description:
       "AI chatbot interface geared towards power-users. Features GPT-4 and a three-way conversational format. Built using React.js, Node.js, & Express.js. (Desktop Only Beta) ",
     getImageSrc: () => require("../images/projectscreenshot6.png"),
     url: "https://llm-pro-ui.vercel.app/",
+  },
+  {
+    title: "Mock restaurant page",
+    description:
+      "A responsive restaurant website built with React.js",
+    getImageSrc: () => require("../images/projectscreenshot5.png"),
+    url: "https://michael-dixonjr.github.io/restaurant-app",
   },
   {
     title: "React Portfolio",
@@ -35,6 +35,8 @@ const projects = [
 ];
 
 /* Extra Project descriptions
+
+
 
 
     title: "Restaurant Landing Page",
